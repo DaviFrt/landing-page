@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../fonts/segoeui.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src: url("../fonts/segoeuibold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+button,
+a,
+input,
+select,
+textarea {
+  font-family: "Segoe UI", sans-serif;
+  font-size: 16px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
